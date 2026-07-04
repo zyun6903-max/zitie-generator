@@ -1,0 +1,29 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 打包输出
+dist/
+build/
+*.spec
+!build.spec
+
+# 图标生成脚本
+# generate_icon.py  # 需要提交到仓库
+
+# 测试 PDF
+*.pdf
+!data/**/*.pdf
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
